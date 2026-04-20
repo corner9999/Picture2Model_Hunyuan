@@ -1,0 +1,10 @@
+{
+  "task_id": "task_001",
+  "generated_models": [
+    {
+      "object_id": "obj_001",
+      "label": "laptop",
+      "model_url": "https://example.com/tasks/task_001/models/obj_001.glb"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Put your input images in this folder.
+
+Supported types:
+- .jpg
+- .jpeg
+- .png
+- .webp
+
+Then run:
+python3 generate_from_folder.py

@@ -1,0 +1,19 @@
+{
+  "task_id": "task_001",
+  "objects": [
+    {
+      "object_id": "obj_001",
+      "label": "laptop",
+      "crop_url": "input_images/pencil.png",
+      "need_generation": true,
+      "model_url": ""
+    },
+    {
+      "object_id": "obj_002",
+      "label": "cup",
+      "crop_url": "",
+      "need_generation": false,
+      "model_url": "https://example.com/assets/models/cup_001.glb"
+    }
+  ]
+}
