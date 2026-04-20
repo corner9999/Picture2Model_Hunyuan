@@ -191,7 +191,7 @@ https://example.com/tasks/<task_id>/models/<object_id>.glb
 
 ## 可选配置
 
-如果你要调整输出目录、模型版本或轮询时间，可以传 `TaskGenerationConfig`：
+如果要调整输出目录、模型版本或轮询时间，可以传 `TaskGenerationConfig`：
 
 ```python
 from pathlib import Path
@@ -257,7 +257,7 @@ result = process_generation_task(
 
 [`test_run.py`](/Users/jan/Desktop/Picture2Model/test_run.py) 是最小真实调用示例。
 
-你只需要修改两个地方：
+只需要修改两个地方：
 
 - `API_KEY`
 - `INPUT_JSON`
@@ -349,9 +349,9 @@ except TaskGenerationError as exc:
 - `hy-3d-3.1` 不支持 `LowPoly`
 - 返回结果里的 `model_url` 默认是本地绝对路径；如果需要 HTTP 地址，请传 `model_reference_builder`
 
-## 推荐给后端的最小交付文件
 
-如果只保留最小可用集，建议保留：
+
+最小可用集，保留：
 
 - `task_model_service.py`
 - `hunyuan_3d.py`
